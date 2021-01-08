@@ -7,7 +7,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import App from './App/App'
+import App from 'components/App/App.js'
 
 import './index.css'
 
