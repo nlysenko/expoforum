@@ -1,0 +1,2 @@
+(this.webpackJsonpexpoforum=this.webpackJsonpexpoforum||[]).push([[0],{10:function(e,t,n){},11:function(e,t,n){"use strict";n.r(t);var c=n(1),o=n(0),r=n.n(o),s=n(3),i=n.n(s),u=(n(9),function(){return Object(c.jsx)("div",{className:"app"})});n(10);i.a.render(Object(c.jsx)(r.a.StrictMode,{children:Object(c.jsx)(u,{})}),document.getElementById("root"))},9:function(e,t,n){}},[[11,1,2]]]);
+//# sourceMappingURL=main.d8af2c95.chunk.js.map
