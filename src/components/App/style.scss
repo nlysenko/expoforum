@@ -1,3 +1,5 @@
+@import 'styles/variables.scss';
+
 html {
   box-sizing: border-box;
 }
@@ -12,26 +14,6 @@ html {
   outline: none !important;
 }
 
-/* Fonts */
-@font-face {
-  font-family: 'Circe';
-  src: local('Circe'), url(./assets/fonts/circe.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Plumb';
-  src: local('Plumb'), url(./assets/fonts/plumb.ttf) format('truetype');
-}
-
-/* Set core body defaults */
-body {
-  min-width: 320px;
-  overflow-x: hidden;
-  font-size: 16px;
-  font-family: 'Circe';
-  color: #000;
-}
-
 /* Remove margin */
 h1,
 h2,
@@ -39,6 +21,14 @@ h3,
 p,
 body {
   margin: 0;
+}
+
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+  font-size: 16px;
+  font-family: $font-circe;
+  color: $color-black;
 }
 
 /* Remove list styles and default padding on ul element
@@ -50,7 +40,7 @@ ul {
 }
 
 /* Set basic styles for links */
-a[class] {
+a {
   text-decoration: none;
   cursor: pointer;
 }
@@ -66,4 +56,5 @@ select {
 .container {
   padding: 0 15px;
   margin: 0 auto;
+  max-width: $container-xl;
 }

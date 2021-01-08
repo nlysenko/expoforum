@@ -6,7 +6,7 @@
 
 import React from 'react'
 
-import './style.css'
+import './style.scss'
 
 const Main = () => {
   return <main className="main"></main>
