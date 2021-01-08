@@ -1,0 +1,23 @@
+@import 'styles/variables.scss';
+
+.navbar {
+  display: flex;
+  align-items: center;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    padding: 0 13px;
+  }
+
+  &__link {
+    color: $color-white;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
