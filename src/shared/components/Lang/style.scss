@@ -1,0 +1,16 @@
+@import 'styles/variables.scss';
+
+.lang {
+  display: flex;
+  align-items: center;
+  margin-left: 65px;
+
+  &__en {
+    padding: 7px 0 0 7px;
+    color: $color-white;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
