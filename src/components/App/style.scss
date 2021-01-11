@@ -62,3 +62,10 @@ select {
     width: $container-lg;
   }
 }
+
+/* Set body disabled when open menu popup */
+.menu-popup-open {
+  @media screen and (max-width: $screen-lg) {
+    overflow: hidden;
+  }
+}
