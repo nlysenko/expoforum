@@ -1,4 +1,10 @@
+@import 'styles/variables.scss';
+
 .submenu {
   display: flex;
   align-items: center;
+
+  @media screen and (max-width: $screen-lg) {
+    display: none;
+  }
 }
