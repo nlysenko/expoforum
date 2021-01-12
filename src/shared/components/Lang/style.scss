@@ -1,0 +1,21 @@
+@import 'styles/variables.scss';
+
+.lang {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+
+  @media screen and (max-width: $screen-lg) {
+    margin-left: 0;
+    padding-top: 10px;
+  }
+
+  &__en {
+    padding: 7px 0 0 7px;
+    color: $color-white;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

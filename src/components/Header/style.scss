@@ -1,0 +1,17 @@
+@import 'styles/variables.scss';
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 90px;
+  border-bottom: 1px solid $color-white;
+  display: flex;
+  align-items: center;
+
+  &__navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,24 @@
+@import 'styles/variables.scss';
+
+.search-form {
+  &__search {
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon {
+    margin-left: 5px;
+    cursor: pointer;
+
+    &:hover path {
+      fill: $color-black !important;
+    }
+  }
+
+  &__query {
+    border: none;
+    width: 220px;
+    height: 30px;
+    border-radius: 3px;
+  }
+}

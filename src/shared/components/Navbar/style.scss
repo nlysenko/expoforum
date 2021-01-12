@@ -1,0 +1,35 @@
+@import 'styles/variables';
+
+.navbar {
+  display: flex;
+  align-items: center;
+
+  @media screen and (max-width: $screen-lg) {
+    padding-top: 30px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (max-width: $screen-lg) {
+      flex-direction: column;
+    }
+  }
+
+  &__item {
+    padding: 0 13px;
+
+    @media screen and (max-width: $screen-lg) {
+      padding: 10px 0;
+    }
+  }
+
+  &__link {
+    color: $color-white;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
