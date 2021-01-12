@@ -20,13 +20,16 @@ const MenuPopup = (props) => {
 
   return (
     <div className="menu">
-      {menuIsOpen ? <div className="menu__overlay" /> : false}
+      {menuIsOpen ? (
+        <div className="menu__overlay" onClick={toggleMenuPopup} />
+      ) : (
+        false
+      )}
 
       <div
         className={`menu__menu-popup ${
           menuIsOpen && windowWidth <= 1130 ? 'menu__menu-popup--active' : ''
         }`}
-        onClick={toggleMenuPopup}
       >
         <Logo />
 

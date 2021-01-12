@@ -13,10 +13,6 @@
     &:hover path {
       fill: $color-black !important;
     }
-
-    &--active path {
-      fill: $color-black !important;
-    }
   }
 
   &__query {
