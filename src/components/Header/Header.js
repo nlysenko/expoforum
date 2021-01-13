@@ -21,23 +21,21 @@ const Header = (props) => {
 
   return (
     <header className="header">
-      <div className="container">
-        <div className="header__navigation">
-          <Logo />
+      <div className="header__navigation">
+        <Logo />
 
-          {windowWidth > 1130 ? <Navbar /> : false}
+        {windowWidth > 1130 ? <Navbar /> : false}
 
-          {windowWidth > 1130 ? <Submenu /> : false}
+        {windowWidth > 1130 ? <Submenu /> : false}
 
-          {windowWidth <= 1130 ? (
-            <LineMenuButton
-              toggleMenuPopup={toggleMenuPopup}
-              active={menuIsOpen}
-            />
-          ) : (
-            false
-          )}
-        </div>
+        {windowWidth <= 1130 ? (
+          <LineMenuButton
+            toggleMenuPopup={toggleMenuPopup}
+            active={menuIsOpen}
+          />
+        ) : (
+          false
+        )}
       </div>
     </header>
   )

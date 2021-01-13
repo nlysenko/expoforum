@@ -1,8 +1,151 @@
-.top {
+@import 'styles/variables';
+
+%link-shared {
+  color: $color-white;
+
+  &:hover {
+    color: $color-main-ice-cream;
+  }
+
+  &:hover path {
+    fill: $color-main-ice-cream !important;
+  }
+
+  svg {
+    margin-left: 10px;
+  }
+}
+
+.top-section {
   background-image: url('~assets/img/bgc.webp');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  width: 100%;
   height: 800px;
+  color: $color-white;
+
+  &__inner {
+    padding-top: 250px;
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (max-width: $screen-xl) {
+      align-items: center;
+    }
+
+    @media screen and (max-width: $screen-lg) {
+      flex-direction: column;
+      justify-content: flex-start;
+      padding-top: 190px;
+    }
+
+    @media screen and (max-width: $screen-sm) {
+      padding-top: 130px;
+    }
+  }
+
+  &__about-forum {
+    @media screen and (max-width: $screen-lg) {
+      text-align: center;
+    }
+  }
+
+  &__title {
+    font-family: $font-plumb;
+    font-size: 64px;
+
+    @media screen and (max-width: $screen-xl) {
+      font-size: 42px;
+    }
+
+    @media screen and (max-width: $screen-xs) {
+      font-size: 36px;
+    }
+  }
+
+  &__info-text {
+    font-size: 24px;
+    padding-right: 20px;
+    padding-top: 35px;
+    padding-bottom: 25px;
+
+    @media screen and (max-width: $screen-xl) {
+      font-size: 18px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+
+  &__more-link {
+    @extend %link-shared;
+  }
+
+  &__info {
+    display: grid;
+    grid-template-rows: 148px 175px;
+    grid-template-columns: 255px 255px;
+    grid-gap: 30px;
+    padding-top: 90px;
+
+    @media screen and (max-width: $screen-xl) {
+      padding-top: 0;
+    }
+
+    @media screen and (max-width: $screen-lg) {
+      padding-top: 30px;
+      grid-column-gap: 120px;
+    }
+
+    @media screen and (max-width: $screen-md) {
+      padding-top: 30px;
+      grid-gap: 30px;
+    }
+
+    @media screen and (max-width: $screen-sm) {
+      grid-template-rows: 100px 100px 120px 120px;
+      grid-template-columns: 180px;
+      padding-top: 20px;
+      grid-gap: 15px;
+    }
+  }
+
+  &__card {
+    padding: 30px 40px;
+
+    @media screen and (max-width: $screen-sm) {
+      padding: 15px 20px;
+    }
+
+    &:first-child {
+      background-color: $color-main-blue;
+    }
+
+    &:nth-child(2) {
+      background-color: $color-main-green;
+    }
+
+    &:nth-child(3) {
+      background-color: $color-main-yellow;
+    }
+
+    &:last-child {
+      background-color: $color-main-red;
+    }
+  }
+
+  &__card-title {
+    font-family: $font-plumb;
+    font-weight: 500;
+    font-size: 21px;
+    padding-bottom: 15px;
+
+    @media screen and (max-width: $screen-sm) {
+      font-size: 18px;
+      padding-bottom: 8px;
+    }
+  }
+
+  &__card-more-link {
+    @extend %link-shared;
+  }
 }

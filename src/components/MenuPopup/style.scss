@@ -1,9 +1,11 @@
 @import 'styles/variables';
 
 .menu {
-  &__overlay {
-    @media screen and (max-width: $screen-lg) {
-      position: absolute;
+  width: 280px;
+
+  &__cover {
+    @media screen and (max-width: 1130px) {
+      position: fixed;
       top: 0;
       left: 0;
       right: 0;

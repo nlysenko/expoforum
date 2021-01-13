@@ -1,7 +1,7 @@
-@import 'styles/variables.scss';
+@import 'styles/variables';
 
 .header {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -13,5 +13,9 @@
   &__navigation {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: $container-xxx;
+    margin: 0 auto;
+    padding: 0 15px;
   }
 }
