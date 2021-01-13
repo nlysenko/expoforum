@@ -1,4 +1,4 @@
-@import 'styles/typografy.scss';
+@import 'styles/typografy';
 
 /* Colors */
 $color-main-blue: #2378fc;
@@ -15,14 +15,14 @@ $font-plumb: 'Plumb', sans-serif;
 
 /* Containers */
 $container-xs: 290px;
-$container-sm: 450px;
-$container-md: 738px;
+$container-sm: 420px;
+$container-md: 668px;
 $container-lg: 962px;
 $container-xl: 1142px;
+$container-xxl: 1564px;
 
 /* Screens */
-$screen-xs: 0;
+$screen-xs: 320px;
 $screen-sm: 480px;
 $screen-md: 768px;
-$screen-lg: 1130px;
-$screen-xl: 1200px;
+$screen-lg: 1200px;

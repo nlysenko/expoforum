@@ -21,7 +21,7 @@ const MenuPopup = (props) => {
   return (
     <div className="menu">
       {menuIsOpen ? (
-        <div className="menu__overlay" onClick={toggleMenuPopup} />
+        <div className="menu__cover" onClick={toggleMenuPopup} />
       ) : (
         false
       )}

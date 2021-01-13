@@ -1,11 +1,11 @@
-@import 'styles/variables.scss';
+@import 'styles/variables';
 
 .lang {
   display: flex;
   align-items: center;
   margin-left: 20px;
 
-  @media screen and (max-width: $screen-lg) {
+  @media screen and (max-width: 1130px) {
     margin-left: 0;
     padding-top: 10px;
   }

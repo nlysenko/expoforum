@@ -1,4 +1,4 @@
-@import 'styles/variables.scss';
+@import 'styles/variables';
 
 html {
   box-sizing: border-box;
@@ -61,6 +61,18 @@ select {
   @media screen and (max-width: $screen-lg) {
     width: $container-lg;
   }
+
+  /*  @media screen and (max-width: $screen-md) {
+    width: $container-md;
+  }
+
+  @media screen and (max-width: $screen-sm) {
+    width: $container-sm;
+  }
+
+  @media screen and (max-width: $screen-xs) {
+    width: $container-xs;
+  }*/
 }
 
 /* Set body disabled when open menu popup */
