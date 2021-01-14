@@ -19,7 +19,7 @@ const cards = [
 
 const Top = () => {
   return (
-    <section className="top-section">
+    <section className="top-section" id="about-forum">
       <div className="container">
         <div className="top-section__inner">
           <div className="top-section__about-forum">
