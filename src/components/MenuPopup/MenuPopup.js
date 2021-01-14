@@ -33,7 +33,7 @@ const MenuPopup = (props) => {
       >
         <Logo />
 
-        <Navbar />
+        <Navbar toggleMenuPopup={toggleMenuPopup} />
 
         <Submenu />
       </div>
