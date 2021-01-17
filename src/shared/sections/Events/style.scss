@@ -1,6 +1,86 @@
 @import 'styles/variables';
 
 .events {
-  height: 985px;
   background: $color-main-yellow;
+  padding: 75px 0 79px;
+
+  @media screen and (max-width: $screen-md) {
+    padding: 35px 0 39px;
+  }
+
+  &__title-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: $screen-md) {
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  &__title {
+    font-size: 30px;
+    font-family: $font-plumb;
+    font-weight: 500;
+    text-align: center;
+
+    @media screen and (max-width: $screen-lg) {
+      font-size: 24px;
+    }
+  }
+
+  &__more-events {
+    display: flex;
+    align-items: center;
+
+    @media screen and (max-width: $screen-md) {
+      padding-top: 15px;
+    }
+
+    path {
+      fill: $color-black;
+    }
+
+    &:hover path {
+      fill: $color-main-ice-cream !important;
+    }
+  }
+
+  &__more-link {
+    font-size: 21px;
+    font-family: $font-plumb;
+    font-weight: 500;
+    color: $color-black;
+    height: 26px;
+    color: $color-black;
+    border-bottom: 1px solid $color-black;
+    margin-right: 10px;
+
+    @media screen and (max-width: $screen-lg) {
+      font-size: 18px;
+    }
+
+    &:hover {
+      color: $color-main-ice-cream;
+      border-color: $color-main-ice-cream;
+    }
+  }
+
+  &__list {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, auto);
+    padding-top: 55px;
+    gap: 30px;
+
+    @media screen and (max-width: $screen-lg) {
+      grid-template-columns: repeat(2, auto);
+    }
+
+    @media screen and (max-width: $screen-sm) {
+      grid-template-columns: auto;
+    }
+  }
 }
