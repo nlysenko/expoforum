@@ -6,9 +6,8 @@
 
 import React from 'react'
 
-import { ReactComponent as ArrowIcon } from 'assets/svg/arrow.svg'
-
 import EventCard from 'shared/components/EventCard/EventCard.js'
+import ShowMoreButton from 'shared/buttons/ShowMoreButton/ShowMoreButton.js'
 
 import Event1 from 'assets/img/event_1.webp'
 import Event2 from 'assets/img/event_2.webp'
@@ -66,13 +65,7 @@ const Events = () => {
         <div className="events__title-wrapper">
           <h2 className="events__title">Текущие и будущие мероприятия</h2>
 
-          <div className="events__more-events">
-            <a className="events__more-link" href="/#">
-              Все мероприятия
-            </a>
-
-            <ArrowIcon />
-          </div>
+          <ShowMoreButton name="Все мероприятия" url="/#" />
         </div>
 
         <div className="events__list">

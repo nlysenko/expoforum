@@ -29,42 +29,9 @@
     @media screen and (max-width: $screen-lg) {
       font-size: 24px;
     }
-  }
-
-  &__more-events {
-    display: flex;
-    align-items: center;
 
     @media screen and (max-width: $screen-md) {
-      padding-top: 15px;
-    }
-
-    path {
-      fill: $color-black;
-    }
-
-    &:hover path {
-      fill: $color-main-ice-cream !important;
-    }
-  }
-
-  &__more-link {
-    font-size: 21px;
-    font-family: $font-plumb;
-    font-weight: 500;
-    color: $color-black;
-    height: 26px;
-    color: $color-black;
-    border-bottom: 1px solid $color-black;
-    margin-right: 10px;
-
-    @media screen and (max-width: $screen-lg) {
-      font-size: 18px;
-    }
-
-    &:hover {
-      color: $color-main-ice-cream;
-      border-color: $color-main-ice-cream;
+      padding-bottom: 15px;
     }
   }
 
