@@ -1,0 +1,121 @@
+@import 'styles/variables';
+
+.news-section {
+  background: $color-main-ice-cream;
+  padding: 75px 0 85px;
+  display: flex;
+
+  @media screen and (max-width: $screen-md) {
+    padding: 35px 0 40px;
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (max-width: $screen-lg) {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
+  }
+
+  &__banners {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    @media screen and (max-width: $screen-lg) {
+      width: 100%;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    @media screen and (max-width: $screen-md) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__banner {
+    display: block;
+    width: 445px;
+
+    @media screen and (max-width: $screen-xl) {
+      width: 370px;
+    }
+
+    @media screen and (max-width: $screen-lg) {
+      width: 330px;
+    }
+
+    &:last-child {
+      @media screen and (max-width: $screen-md) {
+        margin-top: 20px;
+      }
+    }
+
+    @media screen and (max-width: $screen-sm) {
+      width: 100%;
+    }
+  }
+
+  &__news {
+    width: 540px;
+
+    @media screen and (max-width: $screen-lg) {
+      width: 100%;
+      padding-top: 40px;
+    }
+
+    @media screen and (max-width: $screen-sm) {
+      padding-top: 30px;
+    }
+  }
+
+  &__news-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__news-item {
+    position: relative;
+    display: flex;
+    margin-top: 30px;
+
+    @media screen and (max-width: $screen-sm) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__item-inner {
+    padding-left: 30px;
+
+    @media screen and (max-width: $screen-sm) {
+      padding: 0;
+      text-align: center;
+    }
+  }
+
+  &__date {
+    line-height: 21px;
+  }
+
+  &__link {
+    display: block;
+    margin-top: 12px;
+  }
+
+  &__news-title {
+    font-size: 21px;
+    color: $color-black;
+    line-height: 27px;
+    font: $font-plumb;
+    font-weight: 500;
+
+    @media screen and (max-width: $screen-xl) {
+      font-size: 18px;
+    }
+  }
+}
