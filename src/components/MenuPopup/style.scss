@@ -21,7 +21,7 @@
     width: 280px;
     height: 430px;
     top: 0;
-    left: -480px;
+    left: -520px;
     background: $color-main-green;
     z-index: 200;
     display: flex;
@@ -29,10 +29,6 @@
     padding-top: 30px;
     padding-left: 20px;
     border-bottom-right-radius: 3px;
-
-    @media screen and (max-width: $screen-lg) {
-      left: -480px;
-    }
 
     &--active {
       left: 0;

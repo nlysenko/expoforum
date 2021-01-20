@@ -1,13 +1,14 @@
 @import 'styles/variables';
 
 .search-form {
+  display: flex;
+
   &__search {
     display: flex;
     align-items: center;
   }
 
   &__icon {
-    margin-left: 5px;
     cursor: pointer;
 
     &:hover path {
@@ -15,10 +16,21 @@
     }
   }
 
-  &__query {
+  &__search-query {
     border: none;
     width: 220px;
     height: 30px;
     border-radius: 3px;
+  }
+
+  &__submit-btn {
+    width: 40px;
+    height: 30px;
+    background-color: Transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

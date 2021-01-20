@@ -73,7 +73,7 @@ const Footer = () => {
           </div>
 
           <div className="footer__social-wrapper">
-            <div>
+            <div className="footer__social-group">
               <div className="footer__press">
                 <h3 className="footer__press-title">Прессе</h3>
 
@@ -103,8 +103,8 @@ const Footer = () => {
               </div>
             </div>
 
-            <div>
-              <div className="footer__social">
+            <div className="footer__social-group">
+              <div className="footer__social" id="contacts">
                 <h3 className="footer__social-title">Мы в соц. сетях</h3>
 
                 <a className="footer__social-link" href="/#">

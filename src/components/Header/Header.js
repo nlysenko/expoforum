@@ -12,15 +12,17 @@ import Submenu from 'shared/components/Submenu/Submenu.js'
 import LineMenuButton from 'shared/buttons/LineMenuButton/LineMenuButton.js'
 
 import useWindowWidth from 'shared/hooks/useWindowWidth.js'
+import useScroll from 'shared/hooks/useScroll.js'
 
 import './style.scss'
 
 const Header = (props) => {
   const { menuIsOpen, toggleMenuPopup } = props
   const windowWidth = useWindowWidth()
+  const pageYOffset = useScroll()
 
   return (
-    <header className="header">
+    <header className={`header ${pageYOffset > 90 ? 'header--active' : ''}`}>
       <div className="header__navigation">
         <Logo />
 
