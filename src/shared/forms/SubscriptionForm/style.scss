@@ -1,0 +1,66 @@
+@import 'styles/variables';
+
+.subscription-form {
+  &__group {
+    display: flex;
+  }
+
+  &__email {
+    width: 215px;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+    padding-left: 15px;
+    color: $color-dusty-gray;
+
+    &::placeholder {
+      color: $color-dusty-gray;
+      font-size: 12px;
+    }
+  }
+
+  &__submit-btn {
+    border: none;
+    background-color: $color-main-red;
+    width: 40px;
+    height: 40px;
+
+    &:hover {
+      cursor: pointer;
+
+      i {
+        background-color: $color-main-yellow;
+      }
+
+      i:after {
+        border-left-color: $color-main-yellow;
+      }
+    }
+  }
+
+  &__icon {
+    position: relative;
+    display: block;
+    width: 18px;
+    height: 12px;
+    background-color: $color-white;
+    margin: 0 auto;
+
+    &:after {
+      content: '';
+      position: absolute;
+      right: 3px;
+      top: 6px;
+      border: 6px solid transparent;
+      border-left: 6px solid $color-white;
+    }
+  }
+
+  &__error-message {
+    padding-top: 10px;
+    padding-left: 10px;
+    display: block;
+    font-size: 14px;
+    color: $color-error;
+  }
+}
