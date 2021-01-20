@@ -1,0 +1,128 @@
+@import 'styles/variables';
+
+%title-shared {
+  font: $font-plumb;
+  font-weight: 500;
+  color: $color-white;
+  font-size: 21px;
+  line-height: 27px;
+  padding-bottom: 20px;
+}
+
+%link-shared {
+  font-size: 14px;
+  height: 19px;
+  width: max-content;
+  color: $color-alto;
+  margin-top: 10px;
+
+  &:hover {
+    color: $color-main-yellow;
+    border-bottom: 1px solid $color-main-yellow;
+  }
+}
+
+.footer {
+  padding: 60px 0 30px;
+  background: $color-main-green;
+
+  &__inner {
+    display: flex;
+  }
+
+  &__menu {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__menu-item {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-bottom: 40px;
+  }
+
+  &__menu-titel {
+    @extend %title-shared;
+  }
+
+  &__menu-link {
+    @extend %link-shared;
+  }
+
+  &__social-wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__press {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__press-title {
+    @extend %title-shared;
+  }
+
+  &__press-link {
+    @extend %link-shared;
+  }
+
+  &__apps {
+    padding-top: 40px;
+  }
+
+  &__apps-title {
+    @extend %title-shared;
+  }
+
+  &__apps-link {
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  &__bg-apple {
+    width: 160px;
+    height: 53px;
+    background-image: url('~assets/img/bg-apple.webp');
+    background-repeat: no-repeat;
+  }
+
+  &__bg-google {
+    width: 160px;
+    height: 53px;
+    background-image: url('~assets/img/bg-google.webp');
+    background-repeat: no-repeat;
+  }
+
+  &__social-title {
+    @extend %title-shared;
+    padding-bottom: 30px;
+  }
+
+  &__social-link {
+    margin-right: 30px;
+    display: inline-block;
+    height: 25px;
+
+    &:hover svg > path {
+      fill: $color-main-yellow !important;
+    }
+  }
+
+  &__news-title {
+    @extend %title-shared;
+    padding-top: 50px;
+    padding-bottom: 15px;
+  }
+
+  &__news-info {
+    max-width: 255px;
+    font-size: 14px;
+    line-height: 19px;
+    color: $color-alto;
+    padding-bottom: 25px;
+  }
+}

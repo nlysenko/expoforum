@@ -10,8 +10,8 @@ import './style.scss'
 
 const model = [
   {
-    users: 'Организаторам',
-    resources: [
+    title: 'Организаторам',
+    links: [
       { name: 'Документы организаторам', url: '/#' },
       { name: 'Услуги организаторам', url: '/#' },
       { name: 'Выставочные площади', url: '/#' },
@@ -21,8 +21,8 @@ const model = [
     ],
   },
   {
-    users: 'Экспонентам',
-    resources: [
+    title: 'Экспонентам',
+    links: [
       { name: 'Общие условия участия', url: '/#' },
       { name: 'Услуги экспонентам', url: '/#' },
       { name: 'Документы экспонентам', url: '/#' },
@@ -31,8 +31,8 @@ const model = [
     ],
   },
   {
-    users: 'Посетителям',
-    resources: [
+    title: 'Посетителям',
+    links: [
       { name: 'Сервисы', url: '/#' },
       { name: 'Онлайн-регистрация  на мероприятие', url: '/#' },
       { name: 'Забронировать гостиницу', url: '/#' },
@@ -40,8 +40,8 @@ const model = [
     ],
   },
   {
-    users: 'Прессе',
-    resources: [
+    title: 'Прессе',
+    links: [
       { name: 'Аккредитация', url: '/#' },
       { name: 'Пресс-служба', url: '/#' },
       { name: 'Правила аккредитации', url: '/#' },
@@ -54,13 +54,13 @@ const Resources = () => {
     <section className="res-section" id="resources">
       <div className="container">
         <div className="res-section__inner">
-          {model.map((block, i) => (
+          {model.map((elem, i) => (
             <div className="res-section__item" key={i}>
-              <h2 className="res-section__title">{block.users}</h2>
+              <h2 className="res-section__title">{elem.title}</h2>
 
-              {block.resources.map((item, i) => (
-                <a className="res-section__link" href={item.url} key={i}>
-                  {item.name}
+              {elem.links.map((link, i) => (
+                <a className="res-section__link" href={link.url} key={i}>
+                  {link.name}
                 </a>
               ))}
             </div>
