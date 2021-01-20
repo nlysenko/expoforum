@@ -7,6 +7,10 @@
   font-size: 21px;
   line-height: 27px;
   padding-bottom: 20px;
+
+  @media screen and (max-width: $screen-sm) {
+    padding-bottom: 10px;
+  }
 }
 
 %link-shared {
@@ -26,14 +30,27 @@
   padding: 60px 0 30px;
   background: $color-main-green;
 
+  @media screen and (max-width: $screen-md) {
+    padding: 30px 0 20px;
+  }
+
   &__inner {
     display: flex;
+
+    @media screen and (max-width: $screen-lg) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   &__menu {
     width: 50%;
     display: flex;
     flex-wrap: wrap;
+
+    @media screen and (max-width: $screen-lg) {
+      width: 100%;
+    }
   }
 
   &__menu-item {
@@ -41,6 +58,15 @@
     flex-direction: column;
     width: 50%;
     padding-bottom: 40px;
+
+    @media screen and (max-width: $screen-lg) {
+      align-items: center;
+    }
+
+    @media screen and (max-width: $screen-sm) {
+      width: 100%;
+      padding-bottom: 30px;
+    }
   }
 
   &__menu-titel {
@@ -55,11 +81,33 @@
     width: 50%;
     display: flex;
     justify-content: space-between;
+
+    @media screen and (max-width: $screen-lg) {
+      width: 100%;
+    }
+
+    @media screen and (max-width: $screen-sm) {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
+  }
+
+  &__social-group {
+    width: 50%;
+
+    @media screen and (max-width: $screen-sm) {
+      width: 100%;
+    }
   }
 
   &__press {
     display: flex;
     flex-direction: column;
+
+    @media screen and (max-width: $screen-lg) {
+      align-items: center;
+    }
   }
 
   &__press-title {
@@ -72,6 +120,16 @@
 
   &__apps {
     padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (max-width: $screen-lg) {
+      align-items: center;
+    }
+
+    @media screen and (max-width: $screen-sm) {
+      padding-top: 30px;
+    }
   }
 
   &__apps-title {
@@ -97,9 +155,19 @@
     background-repeat: no-repeat;
   }
 
+  &__social {
+    @media screen and (max-width: $screen-lg) {
+      text-align: center;
+    }
+  }
+
   &__social-title {
     @extend %title-shared;
     padding-bottom: 30px;
+
+    @media screen and (max-width: $screen-sm) {
+      padding-top: 30px;
+    }
   }
 
   &__social-link {
@@ -107,8 +175,25 @@
     display: inline-block;
     height: 25px;
 
+    @media screen and (max-width: $screen-xl) {
+      margin-right: 20px;
+    }
+
+    @media screen and (max-width: $screen-lg) {
+      margin: 0 15px;
+    }
+
     &:hover svg > path {
       fill: $color-main-yellow !important;
+    }
+  }
+
+  &__news {
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (max-width: $screen-lg) {
+      align-items: center;
     }
   }
 
@@ -116,6 +201,10 @@
     @extend %title-shared;
     padding-top: 50px;
     padding-bottom: 15px;
+
+    @media screen and (max-width: $screen-sm) {
+      padding-top: 30px;
+    }
   }
 
   &__news-info {
@@ -124,5 +213,9 @@
     line-height: 19px;
     color: $color-alto;
     padding-bottom: 25px;
+
+    @media screen and (max-width: $screen-lg) {
+      text-align: center;
+    }
   }
 }

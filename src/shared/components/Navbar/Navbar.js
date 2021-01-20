@@ -12,8 +12,8 @@ import './style.scss'
 const NavbarList = [
   { name: 'О комплексе', id: 'about-forum' },
   { name: 'О компании', id: 'resources' },
+  { name: 'Мероприятия', id: 'events' },
   { name: 'Новости', id: 'news' },
-  { name: 'Медиа-банк', id: 'media-bank' },
   { name: 'Контакты', id: 'contacts' },
 ]
 
@@ -29,6 +29,7 @@ const Navbar = (props) => {
               className="navbar__link"
               href={`#${elem.id}`}
               onClick={toggleMenuPopup}
+              offset="60"
             >
               {elem.name}
             </AnchorLink>

@@ -1,7 +1,7 @@
 @import 'styles/variables';
 
 .header {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -9,6 +9,14 @@
   border-bottom: 1px solid $color-white;
   display: flex;
   align-items: center;
+  z-index: 10;
+
+  &--active {
+    transition: 0.3s;
+    height: 60px;
+    border-bottom: none;
+    background-color: $color-egg-blue;
+  }
 
   &__navigation {
     display: flex;

@@ -24,7 +24,7 @@ const SubscriptionForm = () => {
     e.preventDefault()
 
     if (userEmail && userEmailIsValid) {
-      const formData = new FormData(document.forms.subscriptionForm)
+      const formData = new FormData(document.forms.SubscriptionForm)
 
       console.log('formData: ', formData)
     }
@@ -34,7 +34,7 @@ const SubscriptionForm = () => {
     <form
       className="subscription-form"
       onSubmit={handleSubmitUserEmail}
-      name="subscriptionForm"
+      name="SubscriptionForm"
     >
       <div className="subscription-form__group">
         <label className="subscription-form__item" htmlFor="user_email">

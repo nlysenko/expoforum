@@ -41,7 +41,7 @@ const news = [
 
 const News = () => {
   return (
-    <section className="news-section" id="news">
+    <section className="news-section">
       <div className="container">
         <div className="news-section__inner">
           <div className="news-section__banners">
@@ -52,7 +52,9 @@ const News = () => {
 
           <div className="news-section__news">
             <div className="news-section__news-header">
-              <h2 className="news-section__title">Новости</h2>
+              <h2 className="news-section__title" id="news">
+                Новости
+              </h2>
 
               <ShowMoreButton name="Все новости" url="/#" />
             </div>
