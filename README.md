@@ -19,3 +19,9 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+### `npm run deploy`
+
+Deploy the app for production to the github-pages
+
+Open [https://nlysenko.github.io/expoforum/](https://nlysenko.github.io/expoforum/) to view it in the browser.
