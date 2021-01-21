@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/expoforum/static/css/main.adb05172.chunk.css",
+    "main.js": "/expoforum/static/js/main.a5aa373c.chunk.js",
+    "main.js.map": "/expoforum/static/js/main.a5aa373c.chunk.js.map",
+    "runtime-main.js": "/expoforum/static/js/runtime-main.81a93f68.js",
+    "runtime-main.js.map": "/expoforum/static/js/runtime-main.81a93f68.js.map",
+    "static/js/2.1f2afc39.chunk.js": "/expoforum/static/js/2.1f2afc39.chunk.js",
+    "static/js/2.1f2afc39.chunk.js.map": "/expoforum/static/js/2.1f2afc39.chunk.js.map",
+    "index.html": "/expoforum/index.html",
+    "static/css/main.adb05172.chunk.css.map": "/expoforum/static/css/main.adb05172.chunk.css.map",
+    "static/js/2.1f2afc39.chunk.js.LICENSE.txt": "/expoforum/static/js/2.1f2afc39.chunk.js.LICENSE.txt",
+    "static/media/ad-1.28d913f7.webp": "/expoforum/static/media/ad-1.28d913f7.webp",
+    "static/media/ad-2.d64a78c4.webp": "/expoforum/static/media/ad-2.d64a78c4.webp",
+    "static/media/arrow.94cfed7a.svg": "/expoforum/static/media/arrow.94cfed7a.svg",
+    "static/media/style.scss": "/expoforum/static/media/plumb.c889f6dc.ttf",
+    "static/media/event_1.48179ef3.webp": "/expoforum/static/media/event_1.48179ef3.webp",
+    "static/media/event_2.fb6dc5d7.webp": "/expoforum/static/media/event_2.fb6dc5d7.webp",
+    "static/media/event_3.1f9fdf0d.webp": "/expoforum/static/media/event_3.1f9fdf0d.webp",
+    "static/media/event_4.b77eac64.webp": "/expoforum/static/media/event_4.b77eac64.webp",
+    "static/media/event_5.a9322c3c.webp": "/expoforum/static/media/event_5.a9322c3c.webp",
+    "static/media/event_6.38c9b339.webp": "/expoforum/static/media/event_6.38c9b339.webp",
+    "static/media/facebook.9b22e143.svg": "/expoforum/static/media/facebook.9b22e143.svg",
+    "static/media/globe.37ab9fca.svg": "/expoforum/static/media/globe.37ab9fca.svg",
+    "static/media/instagram.5949a0c0.svg": "/expoforum/static/media/instagram.5949a0c0.svg",
+    "static/media/logo.6e7268d3.webp": "/expoforum/static/media/logo.6e7268d3.webp",
+    "static/media/news_1.b7e5bbd9.webp": "/expoforum/static/media/news_1.b7e5bbd9.webp",
+    "static/media/news_2.f260e917.webp": "/expoforum/static/media/news_2.f260e917.webp",
+    "static/media/news_3.0d9c5ecf.webp": "/expoforum/static/media/news_3.0d9c5ecf.webp",
+    "static/media/search.59b50a62.svg": "/expoforum/static/media/search.59b50a62.svg",
+    "static/media/vk.d6f07e0d.svg": "/expoforum/static/media/vk.d6f07e0d.svg",
+    "static/media/youtube.e5697999.svg": "/expoforum/static/media/youtube.e5697999.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.81a93f68.js",
+    "static/js/2.1f2afc39.chunk.js",
+    "static/css/main.adb05172.chunk.css",
+    "static/js/main.a5aa373c.chunk.js"
+  ]
+}
