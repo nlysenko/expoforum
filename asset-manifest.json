@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/expoforum/static/css/main.adb05172.chunk.css",
+    "main.css": "/expoforum/static/css/main.7a8e9eac.chunk.css",
     "main.js": "/expoforum/static/js/main.0aacc1f4.chunk.js",
     "main.js.map": "/expoforum/static/js/main.0aacc1f4.chunk.js.map",
     "runtime-main.js": "/expoforum/static/js/runtime-main.81a93f68.js",
@@ -8,7 +8,7 @@
     "static/js/2.1f2afc39.chunk.js": "/expoforum/static/js/2.1f2afc39.chunk.js",
     "static/js/2.1f2afc39.chunk.js.map": "/expoforum/static/js/2.1f2afc39.chunk.js.map",
     "index.html": "/expoforum/index.html",
-    "static/css/main.adb05172.chunk.css.map": "/expoforum/static/css/main.adb05172.chunk.css.map",
+    "static/css/main.7a8e9eac.chunk.css.map": "/expoforum/static/css/main.7a8e9eac.chunk.css.map",
     "static/js/2.1f2afc39.chunk.js.LICENSE.txt": "/expoforum/static/js/2.1f2afc39.chunk.js.LICENSE.txt",
     "static/media/ad-1.28d913f7.webp": "/expoforum/static/media/ad-1.28d913f7.webp",
     "static/media/ad-2.d64a78c4.webp": "/expoforum/static/media/ad-2.d64a78c4.webp",
@@ -34,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.81a93f68.js",
     "static/js/2.1f2afc39.chunk.js",
-    "static/css/main.adb05172.chunk.css",
+    "static/css/main.7a8e9eac.chunk.css",
     "static/js/main.0aacc1f4.chunk.js"
   ]
 }
