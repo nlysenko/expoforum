@@ -58,7 +58,7 @@ const SubscriptionForm = () => {
 
       {!userEmailIsValid ? (
         <span className="subscription-form__error-message">
-          Введите крорректрый email!
+          Email введён неверно!
         </span>
       ) : (
         false
