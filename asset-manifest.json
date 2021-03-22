@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/expoforum/static/css/main.adb05172.chunk.css",
-    "main.js": "/expoforum/static/js/main.a5aa373c.chunk.js",
-    "main.js.map": "/expoforum/static/js/main.a5aa373c.chunk.js.map",
+    "main.js": "/expoforum/static/js/main.0aacc1f4.chunk.js",
+    "main.js.map": "/expoforum/static/js/main.0aacc1f4.chunk.js.map",
     "runtime-main.js": "/expoforum/static/js/runtime-main.81a93f68.js",
     "runtime-main.js.map": "/expoforum/static/js/runtime-main.81a93f68.js.map",
     "static/js/2.1f2afc39.chunk.js": "/expoforum/static/js/2.1f2afc39.chunk.js",
@@ -35,6 +35,6 @@
     "static/js/runtime-main.81a93f68.js",
     "static/js/2.1f2afc39.chunk.js",
     "static/css/main.adb05172.chunk.css",
-    "static/js/main.a5aa373c.chunk.js"
+    "static/js/main.0aacc1f4.chunk.js"
   ]
 }
